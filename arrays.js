@@ -1,25 +1,25 @@
 //define variable
 
 
-function addElementToBeginningOfArray(arr, elementtoadd) {
-  var array = ['foo', 'bar'];
-  ['addthiselementtobeginning', ...arr];
+function addElementToBeginningOfArray(array, element) {
+  var arr = ['foo', 'bar'];
+  ['addthis', ...arr];
   //use spread operator to add
   addElementToBeginningOfArray();//return array with added element to begginning without changing array
 }
 
-function destructivelyAddElementToBeginningOfArray(arr, elementtoadd) {
+function destructivelyAddElementToBeginningOfArray(array, element) {
   var arr = []
   //use .unshift (modifies original content)
   return //add element in a way that alters original array
   }
 
-  function addElementToEndOfArray(arr, elementtoadd) {
+  function addElementToEndOfArray(array, element) {
     var arr = []
     [...arr, 'addthiselementtobeginning']//add element to the end without altering original
   }
 
-  function destructivelyAddElementToEndOfArray(arr, elementtoadd) {
+  function destructivelyAddElementToEndOfArray(array, element) {
     var arr = []
     //add element to alter original .push
     return
@@ -51,5 +51,5 @@ function destructivelyAddElementToBeginningOfArray(arr, elementtoadd) {
 
   function removeElementFromEndOfArray(arr) {
     var arr = []
-    return //array without the last element - meaning we will have to assign it - //use slice then assign 
+    return //array without the last element - meaning we will have to assign it - //use slice then assign
   }
