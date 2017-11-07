@@ -13,8 +13,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   }
 
   function addElementToEndOfArray(array, element) {
-    var arr = []
-    [...arr, 'addthiselementtobeginning']//add element to the end without altering original
+  //add element to the end without altering original
   }
 
   function destructivelyAddElementToEndOfArray(array, element) {
@@ -29,9 +28,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   }
 
   function destructivelyRemoveElementFromBeginningOfArray(array) { //array is the only argument
-    var newArray = ["one", "two", "three"]
-    newArray.shift(0)
-    return newArray.shift(0)//remove first value destructively
+    //remove first value destructively
     //the array with first value removed. use shift
   }
 
