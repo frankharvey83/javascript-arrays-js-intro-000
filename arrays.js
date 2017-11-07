@@ -2,15 +2,13 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
 function addElementToBeginningOfArray(array, element) {
-  const newArray = [1, 2, 3, 4, 5];
-  [0, ...newArray];
-  return newArray;
+  return [element, ...array];
   }
   //use spread operator to add
   //return array with added element to begginning without changing array}
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  var arr = []
+  var newArray = []
   //use .unshift (modifies original content)
   return //add element in a way that alters original array
   }
