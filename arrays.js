@@ -1,11 +1,10 @@
 //define variable
-
+var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
 function addElementToBeginningOfArray(array, element) {
-  var arr = ['foo', 'bar'];
-  ['addthis', ...arr];
+  [element, ...arr];
   //use spread operator to add
-  addElementToBeginningOfArray();//return array with added element to begginning without changing array
+  //return array with added element to begginning without changing array
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
