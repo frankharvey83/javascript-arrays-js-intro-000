@@ -2,9 +2,7 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
 function addElementToBeginningOfArray(array, element) {
-  const newArray = ["one", "two", "three"];
-  const newArrayb = ["zero", ...newArray];
-  return newArrayb;
+  [element, ...array]
   }
   //use spread operator to add
   //return array with added element to begginning without changing array}
