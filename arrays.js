@@ -29,9 +29,9 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   }
 
   function destructivelyRemoveElementFromBeginningOfArray(array) { //array is the only argument
-    const newArray = ["one", "two", "three"]
+    var newArray = ["one", "two", "three"]
     newArray.shift(0)
-    //remove first value destructively
+    return newArray.shift(0)//remove first value destructively
     //the array with first value removed. use shift
   }
 
