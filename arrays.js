@@ -25,31 +25,31 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
     return
   }
 
-  function accessElementInArray(arr, index) {
+  function accessElementInArray(array, index) {
     var arr = []
     return //element in that index - lookup index definition
   }
 
-  function destructivelyRemoveElementFromBeginningOfArray(arr) { //array is the only argument
+  function destructivelyRemoveElementFromBeginningOfArray(array) { //array is the only argument
     var arr = []
     //remove first value destructively
     return //the array with first value removed. use shift
   }
 
-  function removeElementFromBeginningOfArray(arr) {
+  function removeElementFromBeginningOfArray(array) {
     var arr = []
     //remove element from beginning of array non-destructive
       //instructions say return ENTIRE array ???
     return
   }
 
-  function destructivelyRemoveElementFromEndofArray(arr) {
+  function destructivelyRemoveElementFromEndofArray(array) {
     var arr = []
     //remove last element destructively (pop)
     return //returns mutated Array - again says ENTIRE???
   }
 
-  function removeElementFromEndOfArray(arr) {
+  function removeElementFromEndOfArray(array) {
     var arr = []
     return //array without the last element - meaning we will have to assign it - //use slice then assign
   }
