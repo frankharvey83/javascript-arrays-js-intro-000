@@ -2,7 +2,7 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
 function addElementToBeginningOfArray(array, element) {
-
+  var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
   }
   //use spread operator to add
   //return array with added element to begginning without changing array}
