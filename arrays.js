@@ -3,7 +3,7 @@ var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 
 function addElementToBeginningOfArray(array, elementtoadd) {
   var thisArray = []
-  //use spread operator to add 
+  //use spread operator to add
   return //return array with added element to begginning without changing array
 }
 
@@ -16,7 +16,7 @@ function destructivelyAddElementToBeginningOfArray(array, elementtoadd) {
   function addElementToEndOfArray(array, elementtoadd) {
     var thisArray = []
     //add element to the end without altering original
-    return 
+    return
   }
 
   function destructivelyAddElementToEndOfArray(array, elementtoadd) {
@@ -32,7 +32,7 @@ function destructivelyAddElementToBeginningOfArray(array, elementtoadd) {
 
   function destructivelyRemoveElementFromBeginningOfArray(array) { //array is the only argument
     var thisArray = []
-    //remove first value destructively 
+    //remove first value destructively
     return //the array with first value removed. use shift
   }
 
@@ -40,7 +40,7 @@ function destructivelyAddElementToBeginningOfArray(array, elementtoadd) {
     var thisArray = []
     //remove element from beginning of array non-destructive
       //instructions say return ENTIRE array ???
-    return 
+    return
   }
 
   function destructivelyRemoveElementFromEndofArray(array) {
@@ -53,5 +53,3 @@ function destructivelyAddElementToBeginningOfArray(array, elementtoadd) {
     var thisArray = []
     return //array without the last element - meaning we will have to assign it - //use slice then assign 
   }
-
-  
