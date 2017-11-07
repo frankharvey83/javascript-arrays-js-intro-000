@@ -17,9 +17,9 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   }
 
   function destructivelyAddElementToEndOfArray(array, element) {
-    var arr = []
+    newarray = chocolateBars.push("Milky Way");
     //add element to alter original .push
-    return
+    
   }
 
   function accessElementInArray(array, index) {
