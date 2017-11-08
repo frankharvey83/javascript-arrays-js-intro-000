@@ -42,6 +42,6 @@
   }
 
   function removeElementFromEndOfArray(array) {
-     array.slice(0, array.length -1)
-     return array//array without the last element - meaning we will have to assign it - //use slice then assign
+     return array.slice(0, array.length -1)
+    //array without the last element - meaning we will have to assign it - //use slice then assign
   }
