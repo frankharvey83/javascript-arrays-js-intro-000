@@ -13,13 +13,12 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   }
 
   function addElementToEndOfArray(array, element) {
-  return [...array, element]
+    return [...array, element]
   }
 
   function destructivelyAddElementToEndOfArray(array, element) {
-    newArray = chocolateBars.push("element");
-    //add element to alter original .push
-    return newArray
+    array.push(element)
+    return array
   }
 
   function accessElementInArray(array, index) {
