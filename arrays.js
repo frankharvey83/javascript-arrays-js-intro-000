@@ -36,7 +36,6 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   }
 
   function destructivelyRemoveElementFromEndofArray(array) {
-    const array
     array.pop()
     return array
 }
