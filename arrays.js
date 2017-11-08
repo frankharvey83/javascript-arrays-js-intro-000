@@ -35,7 +35,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   }
 
   function destructivelyRemoveElementFromEndofArray(array) {
-    return array.pop()
+    array.pop()
     //remove last element destructively (pop)
     //returns mutated Array - again says ENTIRE???
   }
