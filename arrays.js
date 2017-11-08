@@ -31,7 +31,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   }
 
   function removeElementFromBeginningOfArray(array) {
-    return array.slice()()
+    return array.slice()
     //remove element from beginning of array non-destructive
       //instructions say return ENTIRE array ???
     return
