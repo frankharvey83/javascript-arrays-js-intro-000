@@ -22,8 +22,8 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   }
 
   function accessElementInArray(array, index) {
-    var arr = []
-    return //element in that index - lookup index definition
+    return array[index]
+  //element in that index - lookup index definition
   }
 
   function destructivelyRemoveElementFromBeginningOfArray(array) { //array is the only argument
