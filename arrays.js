@@ -36,12 +36,12 @@
 //   }
 
   function destructivelyRemoveElementFromEndofArray(array) {
-    array.pop(1)
+    array.pop()
     return array
 
   }
 
   function removeElementFromEndOfArray(array) {
-     array.slice(0, array.length, -1)
+     array.slice()
      return array//array without the last element - meaning we will have to assign it - //use slice then assign
   }
