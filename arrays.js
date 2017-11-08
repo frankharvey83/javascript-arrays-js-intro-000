@@ -41,5 +41,5 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   }
 
   function removeElementFromEndOfArray(array) {
-     //array without the last element - meaning we will have to assign it - //use slice then assign
+     array.slice(0, array.length, -1)//array without the last element - meaning we will have to assign it - //use slice then assign
   }
