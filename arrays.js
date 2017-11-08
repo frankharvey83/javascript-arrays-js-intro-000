@@ -27,8 +27,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   }
 
   function destructivelyRemoveElementFromBeginningOfArray(array) { //array is the only argument
-    //remove first value destructively
-    //the array with first value removed. use shift
+    return array.shift()
   }
 
   function removeElementFromBeginningOfArray(array) {
