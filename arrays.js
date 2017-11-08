@@ -35,11 +35,11 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   }
 
   function destructivelyRemoveElementFromEndofArray(array) {
-    var arr = []
+    return array.pop()
     //remove last element destructively (pop)
-    return //returns mutated Array - again says ENTIRE???
+    //returns mutated Array - again says ENTIRE???
   }
 
   function removeElementFromEndOfArray(array) {
-    return array.pop() //array without the last element - meaning we will have to assign it - //use slice then assign
+     //array without the last element - meaning we will have to assign it - //use slice then assign
   }
